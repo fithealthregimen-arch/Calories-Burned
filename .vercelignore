@@ -1,0 +1,4 @@
+# Force clean builds
+.vercel
+.next
+out

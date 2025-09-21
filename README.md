@@ -14,7 +14,6 @@ A modern, responsive web application built with Next.js and TypeScript that calc
 
 ## 🚀 Tech Stack
 
-- **Framework**: Next.js 14 with App Router
 - **Language**: TypeScript
 - **Styling**: Tailwind CSS
 - **Icons**: Lucide React
@@ -113,7 +112,7 @@ This project is optimized for Vercel deployment:
 2. **Configure build settings** (auto-detected)
 3. **Deploy with one click**
 
-The `next.config.js` is configured for static export, making it compatible with various hosting platforms.
+The application is optimized for server-side rendering and Vercel deployment.
 
 ## 📱 Responsive Design
 
