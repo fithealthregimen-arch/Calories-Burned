@@ -135,7 +135,7 @@ export function getCalorieRecommendation(totalCalories: number): {
     };
   } else if (totalCalories >= 150) {
     return {
-      message: 'Good job! You\'re burning a solid amount of calories.',
+      message: 'Good job! You are burning a solid amount of calories.',
       type: 'success'
     };
   } else if (totalCalories >= 50) {

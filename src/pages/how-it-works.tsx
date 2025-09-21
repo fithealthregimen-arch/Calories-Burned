@@ -243,7 +243,7 @@ export default function HowItWorks() {
                   <ul className="space-y-2 text-slate-700">
                     <li className="flex items-start gap-2">
                       <span className="text-green-500 font-bold">✓</span>
-                      <span>Start with activities you enjoy - you'll stick with them longer</span>
+                      <span>Start with activities you enjoy - you will stick with them longer</span>
                     </li>
                     <li className="flex items-start gap-2">
                       <span className="text-green-500 font-bold">✓</span>
@@ -268,7 +268,7 @@ export default function HowItWorks() {
             <h3 className="text-xl font-semibold text-amber-800 mb-4">⚠️ Important Things to Remember</h3>
             <div className="space-y-3 text-amber-700">
               <p>
-                <strong>These are estimates:</strong> Everyone's body is different. The calculator gives you 
+                <strong>These are estimates:</strong> Everyone has a different body. The calculator gives you 
                 a good ballpark figure, but your actual calorie burn might vary based on fitness level, 
                 age, genetics, and other factors.
               </p>

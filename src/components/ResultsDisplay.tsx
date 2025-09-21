@@ -208,7 +208,7 @@ const ResultsDisplay: React.FC<ResultsDisplayProps> = ({ results, isVisible }) =
         </div>
         <p className="text-sm text-slate-600 mt-2">
           {results.weeklyGoalProgress >= 100 
-            ? "Congratulations! You've exceeded the weekly recommended activity level."
+            ? "Congratulations! You have exceeded the weekly recommended activity level."
             : `You need ${formatNumber(500 - results.metMinutes)} more MET-minutes to reach the weekly goal.`
           }
         </p>
