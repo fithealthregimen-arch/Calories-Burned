@@ -1,7 +1,3 @@
 {
-  "framework": "nextjs",
-  "buildCommand": "npm run build",
-  "env": {
-    "NEXT_PUBLIC_RUNTIME": "server"
-  }
+  "framework": "nextjs"
 }
