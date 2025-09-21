@@ -1,16 +1,7 @@
 {
   "framework": "nextjs",
-  "buildCommand": "npm run clean && npm run build",
-  "installCommand": "npm install",
-  "regions": ["iad1"],
-  "functions": {
-    "src/pages/**/*.tsx": {
-      "runtime": "nodejs18.x"
-    }
-  },
-  "build": {
-    "env": {
-      "NODE_ENV": "production"
-    }
+  "buildCommand": "npm run build",
+  "env": {
+    "NEXT_PUBLIC_RUNTIME": "server"
   }
 }

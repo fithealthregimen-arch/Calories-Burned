@@ -2,10 +2,6 @@ import React from 'react';
 import Head from 'next/head';
 import Link from 'next/link';
 
-// Disable static optimization for this page
-export const config = {
-  unstable_runtimeJS: false,
-}
 
 export default function HowItWorks() {
   return (
