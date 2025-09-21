@@ -5,11 +5,11 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "rm -rf .next && next build",
     "start": "next start",
     "lint": "next lint",
     "type-check": "tsc --noEmit",
-    "clean": "rm -rf .next"
+    "clean": "rm -rf .next .vercel"
   },
   "dependencies": {
     "next": "14.2.32",

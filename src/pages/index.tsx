@@ -16,6 +16,11 @@ const initialInputs: UserInputsType = {
   customMet: 0,
 };
 
+// Disable static optimization for this page
+export const config = {
+  unstable_runtimeJS: false,
+}
+
 export default function Home() {
   return (
     <div>
