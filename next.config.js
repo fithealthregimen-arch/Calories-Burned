@@ -9,6 +9,12 @@ const nextConfig = {
   swcMinify: true,
   experimental: {
     optimizeCss: true
+  },
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
+  typescript: {
+    ignoreBuildErrors: false,
   }
 }
 

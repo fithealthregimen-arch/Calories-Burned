@@ -42,7 +42,7 @@ export default function HowItWorks() {
               <h2 className="text-2xl font-bold text-slate-800">What This Guide Covers</h2>
             </div>
             <p className="text-lg text-slate-600 mb-6">
-              Whether you're new to fitness or looking to understand the science behind calorie burning, 
+              Whether you are new to fitness or looking to understand the science behind calorie burning, 
               this guide will help you make the most of our calculator and your exercise routine.
             </p>
             
@@ -87,7 +87,7 @@ export default function HowItWorks() {
               <div>
                 <h3 className="text-xl font-semibold text-slate-800 mb-3">Where Do These Numbers Come From?</h3>
                 <p className="text-slate-600 mb-4">
-                  Our calculator uses something called "MET values" - but don't worry about the science! 
+                  Our calculator uses something called MET values - but do not worry about the science! 
                   These are just numbers that scientists have figured out by studying how much energy 
                   different activities require.
                 </p>
@@ -114,7 +114,7 @@ export default function HowItWorks() {
                   </p>
                 </div>
                 <p className="mt-3 text-blue-100">
-                  That's it! The calculator takes these three pieces of information and gives you 
+                  That is it! The calculator takes these three pieces of information and gives you 
                   an accurate estimate of calories burned.
                 </p>
               </div>
@@ -171,7 +171,7 @@ export default function HowItWorks() {
                   <div className="bg-blue-50 border border-blue-200 p-4 rounded-lg">
                     <h4 className="font-semibold text-blue-800 mb-2">⏱️ Calories per Minute</h4>
                     <p className="text-blue-700 text-sm">
-                      How fast you're burning calories. Higher numbers mean more intense activities 
+                      How fast you are burning calories. Higher numbers mean more intense activities 
                       that burn energy quickly.
                     </p>
                   </div>
@@ -179,7 +179,7 @@ export default function HowItWorks() {
                   <div className="bg-green-50 border border-green-200 p-4 rounded-lg">
                     <h4 className="font-semibold text-green-800 mb-2">💪 Intensity Level</h4>
                     <p className="text-green-700 text-sm">
-                      Light, Moderate, or Vigorous - tells you how hard you're working. 
+                      Light, Moderate, or Vigorous - tells you how hard you are working. 
                       Mix different intensities for best results.
                     </p>
                   </div>
@@ -273,7 +273,7 @@ export default function HowItWorks() {
                 age, genetics, and other factors.
               </p>
               <p>
-                <strong>Start gradually:</strong> If you're new to exercise, begin with light activities 
+                <strong>Start gradually:</strong> If you are new to exercise, begin with light activities 
                 and gradually increase intensity and duration. Listen to your body!
               </p>
               <p>
