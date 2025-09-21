@@ -17,6 +17,28 @@ const initialInputs: UserInputsType = {
 };
 
 export default function Home() {
+  return (
+    <div>
+      <Head>
+        <title>Calories Burned Calculator | Exercise & Activity Calorie Counter</title>
+        <meta
+          name="description"
+          content="Calculate calories burned during exercise and daily activities. Free, accurate calculator with 100+ activities. Get instant results based on your weight and activity duration."
+        />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+          rel="stylesheet"
+        />
+      </Head>
+      <CalculatorApp />
+    </div>
+  );
+}
+
+function CalculatorApp() {
   const [inputs, setInputs] = useState<UserInputsType>(initialInputs);
   const [results, setResults] = useState<CalculationResults | null>(null);
   const [errors, setErrors] = useState<{ [key: string]: string }>({});
@@ -27,7 +49,7 @@ export default function Home() {
       ...prev,
       [field]: value
     }));
-    
+
     // Clear related errors
     if (errors[field]) {
       setErrors(prev => ({
@@ -43,7 +65,7 @@ export default function Home() {
       selectedActivity: activity,
       customMet: 0 // Clear custom MET when activity is selected
     }));
-    
+
     // Clear activity error
     if (errors.activity) {
       setErrors(prev => ({
@@ -226,3 +248,9 @@ export default function Home() {
     </>
   );
 }
+
+function CalculatorApp() {
+  const [inputs, setInputs] = useState<UserInputsType>(initialInputs);
+  const [results, setResults] = useState<CalculationResults | null>(null);
+  const [errors, setErrors] = useState<{ [key: string]: string }>({});
+  const [showResults, setShowResults] = useState(false);

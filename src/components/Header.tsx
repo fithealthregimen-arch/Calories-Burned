@@ -4,12 +4,7 @@ const Header: React.FC = () => {
   return (
     <header className="relative bg-gradient-to-br from-blue-600 via-blue-700 to-purple-700 text-white">
       {/* Background Pattern */}
-      <div className="absolute inset-0 opacity-20">
-        <div className="absolute inset-0 bg-white/5" style={{
-          backgroundImage: 'radial-gradient(circle at 2px 2px, rgba(255,255,255,0.15) 1px, transparent 0)',
-          backgroundSize: '20px 20px'
-        }}></div>
-      </div>
+      <div className="absolute inset-0 opacity-20 bg-gradient-to-br from-white/5 to-transparent"></div>
 
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="py-16 sm:py-20 text-center">

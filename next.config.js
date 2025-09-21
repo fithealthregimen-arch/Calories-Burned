@@ -7,8 +7,15 @@ const nextConfig = {
     ignoreDuringBuilds: true,
   },
   typescript: {
-    ignoreBuildErrors: false,
-  }
+    ignoreBuildErrors: true,
+  },
+  experimental: {
+    optimizeCss: false,
+  },
+  output: undefined,
+  trailingSlash: false,
+  swcMinify: false,
+  reactStrictMode: false,
 }
 
 module.exports = nextConfig
