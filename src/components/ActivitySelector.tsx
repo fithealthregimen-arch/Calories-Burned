@@ -1,5 +1,4 @@
 import React, { useState, useMemo } from 'react';
-import { Search, Filter, Star } from 'lucide-react';
 import { Activity } from '@/types';
 import { activities, activityCategories, searchActivities, getActivitiesByCategory } from '@/data/activities';
 import { cn } from '@/lib/utils';
@@ -49,14 +48,14 @@ const ActivitySelector: React.FC<ActivitySelectorProps> = ({
     <div className="card p-6">
       <div className="flex items-center gap-3 mb-6">
         <div className="p-2 bg-blue-100 rounded-lg">
-          <Star className="w-5 h-5 text-blue-600" />
+          <span className="text-xl">⭐</span>
         </div>
         <h2 className="text-xl font-bold text-slate-800">Choose Your Activity</h2>
       </div>
 
       {/* Search Input */}
       <div className="relative mb-4">
-        <Search className="absolute left-3 top-3 w-5 h-5 text-slate-400" />
+        <span className="absolute left-3 top-3 text-slate-400">🔍</span>
         <input
           type="text"
           placeholder="Search activities (e.g., running, swimming, yoga)..."
@@ -69,7 +68,7 @@ const ActivitySelector: React.FC<ActivitySelectorProps> = ({
       {/* Category Filter */}
       <div className="mb-6">
         <div className="flex items-center gap-2 mb-3">
-          <Filter className="w-4 h-4 text-slate-600" />
+          <span className="text-slate-600">🎯</span>
           <span className="text-sm font-medium text-slate-600">Filter by category:</span>
           <button
             onClick={() => setShowCategories(!showCategories)}

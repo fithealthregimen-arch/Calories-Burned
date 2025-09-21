@@ -1,7 +1,6 @@
 import React from 'react';
 import Head from 'next/head';
 import Link from 'next/link';
-import { ArrowLeft, Calculator, Heart, Target, BookOpen } from 'lucide-react';
 
 export default function HowItWorks() {
   return (
@@ -20,7 +19,7 @@ export default function HowItWorks() {
         <div className="bg-gradient-to-r from-blue-600 to-purple-600 text-white py-16">
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
             <Link href="/" className="inline-flex items-center gap-2 text-blue-100 hover:text-white mb-8 transition-colors">
-              <ArrowLeft className="w-4 h-4" />
+              <span className="text-lg">⬅️</span>
               Back to Calculator
             </Link>
             <h1 className="text-4xl sm:text-5xl font-bold mb-4">
@@ -37,7 +36,7 @@ export default function HowItWorks() {
           <div className="bg-white rounded-xl p-8 shadow-lg mb-8">
             <div className="flex items-center gap-3 mb-4">
               <div className="p-2 bg-blue-100 rounded-lg">
-                <BookOpen className="w-6 h-6 text-blue-600" />
+                <span className="text-2xl">📚</span>
               </div>
               <h2 className="text-2xl font-bold text-slate-800">What This Guide Covers</h2>
             </div>
@@ -48,17 +47,17 @@ export default function HowItWorks() {
             
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
               <div className="text-center p-4 bg-blue-50 rounded-lg">
-                <Calculator className="w-8 h-8 text-blue-600 mx-auto mb-2" />
+                <span className="text-3xl mx-auto mb-2">🧮</span>
                 <h3 className="font-semibold text-slate-800">How It Works</h3>
                 <p className="text-sm text-slate-600">The science made simple</p>
               </div>
               <div className="text-center p-4 bg-green-50 rounded-lg">
-                <Heart className="w-8 h-8 text-green-600 mx-auto mb-2" />
+                <span className="text-3xl mx-auto mb-2">❤️</span>
                 <h3 className="font-semibold text-slate-800">Why It Matters</h3>
                 <p className="text-sm text-slate-600">Benefits for your health</p>
               </div>
               <div className="text-center p-4 bg-purple-50 rounded-lg">
-                <Target className="w-8 h-8 text-purple-600 mx-auto mb-2" />
+                <span className="text-3xl mx-auto mb-2">🎯</span>
                 <h3 className="font-semibold text-slate-800">How to Use It</h3>
                 <p className="text-sm text-slate-600">Practical tips and advice</p>
               </div>
@@ -289,7 +288,7 @@ export default function HowItWorks() {
               href="/"
               className="inline-flex items-center gap-2 bg-gradient-to-r from-blue-600 to-purple-600 text-white font-semibold py-3 px-8 rounded-lg shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-200"
             >
-              <Calculator className="w-5 h-5" />
+              <span className="text-xl">🧮</span>
               Try the Calculator Now
             </Link>
           </div>

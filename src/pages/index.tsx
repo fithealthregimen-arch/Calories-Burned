@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import Head from 'next/head';
-import { Calculator } from 'lucide-react';
 import Header from '@/components/Header';
 import ActivitySelector from '@/components/ActivitySelector';
 import UserInputs from '@/components/UserInputs';
@@ -154,7 +153,7 @@ export default function Home() {
                 !isFormValid ? 'opacity-50 cursor-not-allowed' : ''
               }`}
             >
-              <Calculator className="w-6 h-6 mr-2" />
+              <span className="text-xl mr-2">🧮</span>
               Calculate Calories Burned
             </button>
             {!isFormValid && (

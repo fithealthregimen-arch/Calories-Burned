@@ -1,5 +1,4 @@
 import React from 'react';
-import { Flame, Activity, Clock, Target, Heart, TrendingUp } from 'lucide-react';
 import { CalculationResults } from '@/types';
 import { cn, formatNumber } from '@/lib/utils';
 import { formatDuration, getCalorieRecommendation } from '@/lib/calculations';
@@ -46,7 +45,7 @@ const ResultsDisplay: React.FC<ResultsDisplayProps> = ({ results, isVisible }) =
       <div className="card p-6 bg-gradient-to-r from-blue-600 to-purple-600 text-white">
         <div className="flex items-center gap-3 mb-4">
           <div className="p-2 bg-white/20 rounded-lg">
-            <Flame className="w-6 h-6" />
+            <span className="text-2xl">🔥</span>
           </div>
           <h2 className="text-2xl font-bold">Your Results</h2>
         </div>
@@ -61,7 +60,7 @@ const ResultsDisplay: React.FC<ResultsDisplayProps> = ({ results, isVisible }) =
         <div className="card p-6 text-center">
           <div className="flex justify-center mb-3">
             <div className="p-3 bg-red-100 rounded-full">
-              <Flame className="w-8 h-8 text-red-600" />
+              <span className="text-3xl">🔥</span>
             </div>
           </div>
           <div className="text-3xl font-bold text-slate-800 mb-2">
@@ -76,7 +75,7 @@ const ResultsDisplay: React.FC<ResultsDisplayProps> = ({ results, isVisible }) =
         <div className="card p-6 text-center">
           <div className="flex justify-center mb-3">
             <div className="p-3 bg-orange-100 rounded-full">
-              <Clock className="w-8 h-8 text-orange-600" />
+              <span className="text-3xl">⏱️</span>
             </div>
           </div>
           <div className="text-3xl font-bold text-slate-800 mb-2">
@@ -91,7 +90,7 @@ const ResultsDisplay: React.FC<ResultsDisplayProps> = ({ results, isVisible }) =
         <div className="card p-6 text-center">
           <div className="flex justify-center mb-3">
             <div className="p-3 bg-blue-100 rounded-full">
-              <Activity className="w-8 h-8 text-blue-600" />
+              <span className="text-3xl">🏃</span>
             </div>
           </div>
           <div className="text-3xl font-bold text-slate-800 mb-2">
@@ -112,7 +111,7 @@ const ResultsDisplay: React.FC<ResultsDisplayProps> = ({ results, isVisible }) =
         <div className="card p-6 text-center">
           <div className="flex justify-center mb-3">
             <div className="p-3 bg-green-100 rounded-full">
-              <Target className="w-8 h-8 text-green-600" />
+              <span className="text-3xl">🎯</span>
             </div>
           </div>
           <div className="text-3xl font-bold text-slate-800 mb-2">
@@ -130,7 +129,7 @@ const ResultsDisplay: React.FC<ResultsDisplayProps> = ({ results, isVisible }) =
         getRecommendationColor(recommendation.type)
       )}>
         <div className="flex items-start gap-3">
-          <TrendingUp className="w-6 h-6 flex-shrink-0 mt-1" />
+          <span className="text-xl flex-shrink-0 mt-1">📈</span>
           <div>
             <h3 className="font-bold mb-2">Recommendation</h3>
             <p>{recommendation.message}</p>
@@ -141,7 +140,7 @@ const ResultsDisplay: React.FC<ResultsDisplayProps> = ({ results, isVisible }) =
       {/* Detailed Information */}
       <div className="card p-6">
         <h3 className="text-lg font-bold text-slate-800 mb-4 flex items-center gap-2">
-          <Heart className="w-5 h-5 text-red-500" />
+          <span className="text-lg">❤️</span>
           Detailed Information
         </h3>
         

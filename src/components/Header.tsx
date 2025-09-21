@@ -1,5 +1,4 @@
 import React from 'react';
-import { Calculator, Zap } from 'lucide-react';
 
 const Header: React.FC = () => {
   return (
@@ -11,15 +10,15 @@ const Header: React.FC = () => {
           backgroundSize: '20px 20px'
         }}></div>
       </div>
-      
+
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="py-16 sm:py-20 text-center">
           {/* Logo and Icon */}
           <div className="flex justify-center items-center gap-3 mb-6">
             <div className="p-3 bg-white/20 backdrop-blur-sm rounded-2xl">
-              <Calculator className="w-8 h-8 text-white" />
+              <span className="text-2xl">🧮</span>
             </div>
-            <Zap className="w-6 h-6 text-yellow-300" />
+            <span className="text-2xl">⚡</span>
           </div>
           
           {/* Main Title */}
