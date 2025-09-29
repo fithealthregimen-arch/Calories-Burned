@@ -124,9 +124,21 @@ function CalculatorApp() {
               How Many Calories Did You Burn?
             </h2>
             <p className="text-lg text-slate-600 max-w-3xl mx-auto">
-              Enter your details below to get an accurate estimate of calories burned during your activity. 
+              Enter your details below to get an accurate estimate of calories burned during your activity.
               Our calculator uses scientifically proven formulas to give you reliable results.
             </p>
+            <div className="mt-4 text-center">
+              <a
+                href="https://fithealthregimen.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-1 text-blue-600 hover:text-blue-700 font-medium transition-colors duration-200"
+              >
+                <span>🔗</span>
+                Powered by Fit Health Regimen
+                <span className="text-xs">↗️</span>
+              </a>
+            </div>
           </div>
 
           {/* Calculator Form */}
