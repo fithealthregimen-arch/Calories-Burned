@@ -239,6 +239,31 @@ function CalculatorApp() {
             </div>
           </div>
         </section>
+
+        {/* Footer */}
+        <footer className="bg-slate-800 text-white py-12">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <div className="mb-6">
+              <h3 className="text-xl font-bold mb-2">Discover More Fitness Tools</h3>
+              <p className="text-slate-300 mb-4">
+                Unlock your full potential with our comprehensive suite of fitness calculators and tools
+              </p>
+              <a
+                href="https://fithealthregimen.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white px-6 py-3 rounded-lg font-semibold transition-all duration-200 transform hover:scale-105 shadow-lg"
+              >
+                <span>🏋️‍♂️</span>
+                Visit Fit Health Regimen
+                <span>↗️</span>
+              </a>
+            </div>
+            <div className="text-sm text-slate-400 border-t border-slate-700 pt-6">
+              <p>Access body fat calculators, heart rate zones, 1RM strength calculators, and more premium fitness tools.</p>
+            </div>
+          </div>
+        </footer>
       </main>
     </>
   );
