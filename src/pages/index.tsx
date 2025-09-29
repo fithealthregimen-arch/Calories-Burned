@@ -250,8 +250,3 @@ function CalculatorApp() {
   );
 }
 
-function CalculatorApp() {
-  const [inputs, setInputs] = useState<UserInputsType>(initialInputs);
-  const [results, setResults] = useState<CalculationResults | null>(null);
-  const [errors, setErrors] = useState<{ [key: string]: string }>({});
-  const [showResults, setShowResults] = useState(false);

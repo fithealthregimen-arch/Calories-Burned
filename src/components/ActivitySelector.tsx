@@ -117,7 +117,7 @@ const ActivitySelector: React.FC<ActivitySelectorProps> = ({
       <div className="space-y-2 max-h-80 overflow-y-auto">
         {filteredActivities.length === 0 ? (
           <div className="text-center py-12 text-slate-500">
-            <Search className="w-12 h-12 mx-auto mb-4 opacity-50" />
+            <div className="text-6xl mb-4 opacity-50">🔍</div>
             <p className="text-lg font-medium mb-2">No activities found</p>
             <p className="text-sm">Try adjusting your search or category filter</p>
           </div>
